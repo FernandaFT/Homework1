@@ -1,0 +1,30 @@
+//Transicion: crear un box de 200px de ancho y alto, aplicar una transicion de color y fondo.
+li {
+	cursor: pointer;
+	transition: .9s;
+    -webkit-transition: .9s;
+    -ms-transition: .9s;
+    -moz-transition: .9s;
+ 	-o-transition: .9s;
+}
+.colorB {
+	color: #0013a5;
+}
+.colorB:hover {
+	background-color: #0013a5;
+	border-radius: 50%;
+}
+.colorW {
+	color: #fff;
+}
+.colorW:hover {
+	background-color: #fff;
+	border-radius: 50%;
+}
+.colorR {
+	color:#ff0000;
+}
+.colorR:hover {
+	background-color: #ff0000;
+	border-radius: 50%;
+}

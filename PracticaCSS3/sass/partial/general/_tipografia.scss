@@ -1,0 +1,18 @@
+//2- tipografia: Importar una tipografia externa.
+@font-face {
+    font-family: 'silver';
+    src: url('../font/silver_age_queens-webfont.woff2') format('woff2'),
+         url('../font/silver_age_queens-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.amontillados {
+	font-family: 'silver', serif;
+	font-size: 28px;
+}
+
+h2 {
+	color: #d3d1d1;
+	padding: 40px;
+}

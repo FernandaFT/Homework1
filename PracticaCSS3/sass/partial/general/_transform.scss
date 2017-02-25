@@ -1,0 +1,39 @@
+//Transform: aplicar, translate, rotate y scale.
+
+// ROTATE //
+.RotateCuadro {
+	transform: transform 0.5s ease-in-out;
+}
+.RotateCuadro:hover {
+	transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+	-webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+	-ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+	-moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+	-o-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+	background-color: #06ad0c;
+}
+// TRANSLATE //
+.TranslateCuadro {
+	transform: transform(1,1);
+	transform: transform 0.5s ease;
+}
+.TranslateCuadro:hover {
+	transform: translate(40px,40px);
+	-webkit-transform: translate(40px,40px);
+	-ms-transform: translate(40px,40px);
+	-moz-transform: translate(40px,40px);
+	-o-transform: translate(40px,40px);
+	background-color: #06ad0c;
+}
+// SCALE //
+.ScaleCuadro {
+	transform: transform ease-in-out;;
+}
+.ScaleCuadro:hover {
+	transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	background-color: #06ad0c;
+}

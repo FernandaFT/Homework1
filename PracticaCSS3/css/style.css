@@ -1,0 +1,100 @@
+main {
+  width: 1000px;
+  margin: 0 auto; }
+
+li {
+  width: 20%;
+  height: 200px;
+  border: 1px solid #fff;
+  background-color: #000;
+  list-style: none;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
+body {
+  background: -webkit-linear-gradient(blue, white, red, white, blue);
+  background: -o-linear-gradient(blue, white, red, white, blue);
+  background: -moz-linear-gradient(blue, white, red, white, blue);
+  background: linear-gradient(blue, white, red, white, blue); }
+
+@font-face {
+  font-family: 'silver';
+  src: url("../font/silver_age_queens-webfont.woff2") format("woff2"), url("../font/silver_age_queens-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.amontillados {
+  font-family: 'silver', serif;
+  font-size: 28px; }
+
+h2 {
+  color: #d3d1d1;
+  padding: 40px; }
+
+li {
+  cursor: pointer;
+  transition: .9s;
+  -webkit-transition: .9s;
+  -ms-transition: .9s;
+  -moz-transition: .9s;
+  -o-transition: .9s; }
+
+.colorB {
+  color: #0013a5; }
+
+.colorB:hover {
+  background-color: #0013a5;
+  border-radius: 50%; }
+
+.colorW {
+  color: #fff; }
+
+.colorW:hover {
+  background-color: #fff;
+  border-radius: 50%; }
+
+.colorR {
+  color: #ff0000; }
+
+.colorR:hover {
+  background-color: #ff0000;
+  border-radius: 50%; }
+
+.RotateCuadro {
+  transform: transform 0.5s ease-in-out; }
+
+.RotateCuadro:hover {
+  transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  -o-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  background-color: #06ad0c; }
+
+.TranslateCuadro {
+  transform: transform(1, 1);
+  transform: transform 0.5s ease; }
+
+.TranslateCuadro:hover {
+  transform: translate(40px, 40px);
+  -webkit-transform: translate(40px, 40px);
+  -ms-transform: translate(40px, 40px);
+  -moz-transform: translate(40px, 40px);
+  -o-transform: translate(40px, 40px);
+  background-color: #06ad0c; }
+
+.ScaleCuadro {
+  transform: transform ease-in-out; }
+
+.ScaleCuadro:hover {
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  background-color: #06ad0c; }
+
+/*# sourceMappingURL=style.css.map */

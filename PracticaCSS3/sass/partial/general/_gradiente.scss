@@ -1,0 +1,7 @@
+//3- Gradiente: aplicar una gradiente de blanco/azul/rojo(como la bandera de la sele).
+body {
+	background: -webkit-linear-gradient(blue,white, red,white,blue);
+    background: -o-linear-gradient(blue,white, red,white,blue); 
+    background: -moz-linear-gradient(blue,white, red,white,blue);
+    background: linear-gradient(blue,white, red,white,blue); 
+}
